@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.dstone</groupId>
-	<artifactId>dstone</artifactId>
+	<artifactId>dstone-legacy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	
@@ -351,7 +351,7 @@
 	
 	<build>
 	    <!-- 주석을 풀 경우 ROOT.war 가 생성된다. 주석처리되었을 경우 [artifactId]-[version].war 가 생성된다. -->
-        <finalName>dstone</finalName>
+        <finalName>dstone-legacy</finalName>
         <sourceDirectory>src/main/java</sourceDirectory>
         <testSourceDirectory>src/test/java</testSourceDirectory>
         <outputDirectory>${project.basedir}/target/classes</outputDirectory>     
